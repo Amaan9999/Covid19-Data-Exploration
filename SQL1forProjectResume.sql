@@ -124,5 +124,3 @@ as RollingPeopleVaccinated From ProjectResume..CovidDeaths dea
 Join ProjectResume..CovidVaccinations vac
 	On dea.location = vac.location
 	and dea.date = vac.date where dea.continent is not null
-
-Select * from PercentPopulationVaccinated
